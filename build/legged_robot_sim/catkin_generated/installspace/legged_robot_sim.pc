@@ -1,0 +1,8 @@
+prefix=/home/vasco/hopper_robot_sim/hopper1_ws/install
+
+Name: legged_robot_sim
+Description: Description of legged_robot_sim
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

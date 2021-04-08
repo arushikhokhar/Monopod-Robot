@@ -1,0 +1,24 @@
+monoped:
+  #publish all joint states
+  #creates the /joint_states topic necessary in ROS
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+
+  haa_joint_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: haa_joint
+    pid: {p: 1.0, i: 0.0, d: 0.0}
+
+
+  hfe_joint_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: hfe_joint
+    pid: {p: 1.0, i: 0.0, d: 0.0}
+
+
+  kfe_joint_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: kfe_joint
+    pid: {p: 1.0, i: 0.0, d: 0.0}

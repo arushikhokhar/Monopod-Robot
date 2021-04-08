@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -isystem /usr/include/ignition/math4  -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/vasco/hopper_robot_sim/hopper1_ws/build/gtest/googlemock/gtest/src -Wl,-rpath,/home/vasco/hopper_robot_sim/hopper1_ws/build/gtest/googlemock/gtest/src -lpthread 

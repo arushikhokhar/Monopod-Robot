@@ -1,0 +1,8 @@
+prefix=/home/vasco/hopper_robot_sim/hopper1_ws/install
+
+Name: hopper_training
+Description: Description of hopper_training
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
